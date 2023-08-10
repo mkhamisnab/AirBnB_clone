@@ -1,5 +1,4 @@
-AirBnB clone project!
-First step: a command interpreter is written to manage AirBnB objects.
+tep: a command interpreter is written to manage AirBnB objects.
 This is the first step towards building the first full web application: the AirBnB clone. This first step will be used in building the entire project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
 Each task is linked and helps to:
 put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances
@@ -14,5 +13,3 @@ Retrieve an object from a file, a database etc…
 Do operations on objects (count, compute stats, etc…)
 Update attributes of an object
 Destroy an object
-
-
