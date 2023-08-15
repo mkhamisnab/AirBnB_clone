@@ -1,20 +1,17 @@
 #!/usr/bin/python3
-"""
-Module class: Review
-"""
-
+"""Defines the Review class."""
 from models.base_model import BaseModel
 
+
 class Review(BaseModel):
+    """Represent a review.
+
+    Attributes:
+        place_id (str): The Place id.
+        user_id (str): The User id.
+        text (str): The text of the review.
     """
-    Review - Class representing a review, inherits from BaseModel.
-    """
-    text = ""
+
     place_id = ""
     user_id = ""
-
-    def __init__(self, *args, **kwargs):
-        """
-        Constructor method to initialize a Review instance.
-        """
-        super().__init__(self, *args, **kwargs)
+    text = ""
